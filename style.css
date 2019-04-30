@@ -48,7 +48,7 @@ header nav ul li a{
 .index-banner {
     width: 100%;
     height: calc(100vh - 140px); /*I can see the full image on the browser-new css feature to calculate*/
-    background-image: url('images/img10.jpg');
+    background-image: url('Images/img10.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
