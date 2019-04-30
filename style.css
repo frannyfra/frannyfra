@@ -1,29 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-/* html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-} */
-
 * {
     text-decoration: none;
     box-sizing: border-box;
@@ -71,7 +45,6 @@ header nav ul li a{
 
 
 /* INDEX */
-
 .index-banner {
     width: 100%;
     height: calc(100vh - 140px); /*I can see the full image on the browser-new css feature to calculate*/
@@ -105,43 +78,37 @@ h3 {
     font-size: 26px;
 }
 
-.container{
+.container {
     width: 100%;
-    /* height: 900px; */
-    background-color: pink;
-
     display: flex;
     flex-flow: row wrap;
 }
+
 .index-box-1 {
     display: inline-flexbox;
     flex-direction: row;
     width: 80%;
-    /* vertical-align: center; */
     text-align: justify;
     font-family: 'Adamina', serif;
-    font-size: 20.px;
+    font-size: 20px;
     font-style: solid;
-    /* font-weight: 100%; */
     color: black;
     line-height: 26px;
     margin: 100px auto; 
 }
 
-.index-box-2{
+.index-box-2 {
     display: inline-flexbox;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 35%;
-    /* vertical-align: center; */
     margin: 0 auto;
     padding: 0px;
-    text-align: rigth;
-    line-height: 24px;
+    text-align: left;
+    line-height: 28px;
     font-family: 'Adamina', serif;
-    font-size: 18px;
+    font-size: 19px;
     font-style: solid;
-    /* font-weight: 100%; */
     color: black;
 }
 
@@ -171,8 +138,8 @@ h3 {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-/* 
-Position the "next button" to the right */
+ 
+/* Position the "next button" to the right  */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -206,7 +173,7 @@ Position the "next button" to the right */
     margin-top: 20px;
 }
 
-/* The dots/bullets/indicators */
+/* The dots*/
 .dot {
     cursor: pointer;
     height: 15px;
@@ -225,9 +192,7 @@ Position the "next button" to the right */
 img {
     vertical-align: middle;
     max-width: 100%;
-    /* align-items: center;  */
 }
-
 
 .index-box-3 {
     display: inline-flexbox;
@@ -286,17 +251,24 @@ li {
     to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size {
-@media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-} */
-
-.pause-button {
-    width: 30px;
-    height: 30px;
+.play-button {
+    box-sizing: border-box;
+    width: 34px;
+    height: 34px;
+    border-style: solid;
+    border-color: #202020;
+    border-width: 17px 0px 17px 34px;
+    border-color: transparent transparent transparent #202020;
 }
 
-
+.pause-button {
+    width: 34px;
+    height: 34px;
+    border-style: solid;
+    border-width: 13px;
+    border-color: #202020;
+}
+ 
   
 
  
