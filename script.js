@@ -90,8 +90,6 @@ const moveSlidesToLeft = () => {
 
 };
 
-
-
 // below is to pause the carousel
 stopSlides.addEventListener("click", clicked => {
     clearTimeout(interval);
@@ -116,16 +114,3 @@ leftArrow.addEventListener("click", press => {
 
 
 
-
-// document.onkeydown = function(event) {
-//   if (event.keyCode === 37) {
-    
-//     }
-
-
- 
-// //   } else if (event.keyCode === 39) {
-
-
-// //   }
-// // };
